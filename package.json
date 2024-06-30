@@ -1,0 +1,13 @@
+{
+  "name": "minipaytm",
+  "version": "1.0.0",
+  "description": "## how to use  - run npm i - put your mongo url and you are good to go - to to route signin for first page",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": " npm install --prefix ./server/client && npm run build --prefix ./server/client && npm install "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
