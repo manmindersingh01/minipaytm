@@ -1,7 +1,7 @@
 {
-  "name": "minipaytm",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "## how to use  - run npm i - put your mongo url and you are good to go - to to route signin for first page",
+  "description": "",
   "main": "./server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,5 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "zod": "^3.22.4"
+  }
 }
